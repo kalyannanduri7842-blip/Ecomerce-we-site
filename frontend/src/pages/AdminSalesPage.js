@@ -281,3 +281,4 @@ export function AdminSalesPageSection10(ctx = {}) {
     key: 'adminsalespage-section-10'
   };
 }
+// monthly sales charts and top products
