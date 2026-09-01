@@ -76,3 +76,10 @@ tests/           Unit and integration tests
 ## License
 
 Proprietary. All rights reserved.
+
+## Configuration
+
+Optional environment variables (set in shell, do not commit .env):
+- PORT (default 4000)
+- JWT_SECRET (default dev secret)
+- NODE_ENV (development/production)
