@@ -1,0 +1,24 @@
+{
+  "name": "nexmart-ecommerce",
+  "version": "1.0.0",
+  "description": "NexMart High-Scale E-Commerce Platform",
+  "private": true,
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "start:api": "node backend/src/server.js",
+    "start:frontend": "cd frontend && python3 -m http.server 3000",
+    "dev": "node backend/src/server.js",
+    "test": "node --test tests/unit/*.test.js",
+    "test:coverage": "node --test tests/unit/*.test.js",
+    "seed": "node backend/src/data/seed.js",
+    "build": "echo 'No build step required - pure Node.js + static frontend'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["ecommerce", "nexmart", "shopping"],
+  "author": "NexMart Team",
+  "dependencies": {},
+  "devDependencies": {}
+}
