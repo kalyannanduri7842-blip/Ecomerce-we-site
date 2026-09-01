@@ -281,3 +281,4 @@ export function CheckoutPageSection10(ctx = {}) {
     key: 'checkoutpage-section-10'
   };
 }
+// checkout confirmation and order emails
