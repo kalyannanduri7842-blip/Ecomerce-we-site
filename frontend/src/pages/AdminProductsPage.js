@@ -281,3 +281,4 @@ export function AdminProductsPageSection10(ctx = {}) {
     key: 'adminproductspage-section-10'
   };
 }
+// enable admin product create on storefront sync
