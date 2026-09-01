@@ -1,0 +1,1042 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@nexmart.com",
+      "password": "18a03c8643c65674d52da1d51a18fdf1:e989fa529553387d0e571fb899b1c4285bbd733665533882bf97be90dc31fba4bad75baaa638ebb0862377df59eacacdcb264f61fc482a97eba5a4d387156bfc",
+      "role": "admin",
+      "phone": "9999999999",
+      "status": "active",
+      "createdAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 2,
+      "name": "Demo Customer",
+      "email": "customer@nexmart.com",
+      "password": "2f3b9a33b38e1a3dc11d06610a491f54:93be9e8304893a7fc82277b151b5914f75b49c4a6b606d855327b72d3cdc2f9c76cafa7e829a11ba5062cca8b47ff47eeb74b8510f82ce46edfe2b8cac68d050",
+      "role": "customer",
+      "phone": "9876543210",
+      "status": "active",
+      "createdAt": "2026-09-01T19:48:29.417Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Black Cotton T-Shirt",
+      "slug": "classic-black-cotton-t-shirt",
+      "sku": "MEN-TS-001",
+      "categoryId": 1,
+      "description": "Premium soft cotton t-shirt with classic fit. Perfect for everyday wear.",
+      "price": 599,
+      "discountPrice": 449,
+      "stock": 45,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Cotton",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.4",
+      "reviewCount": 95,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 2,
+      "name": "Blue Slim Fit Jeans",
+      "slug": "blue-slim-fit-jeans",
+      "sku": "MEN-JN-002",
+      "categoryId": 1,
+      "description": "Comfortable slim fit jeans with stretch denim. Modern look for casual and semi-formal occasions.",
+      "price": 1499,
+      "discountPrice": 1199,
+      "stock": 32,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Denim",
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.4",
+      "reviewCount": 188,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 3,
+      "name": "White Formal Shirt",
+      "slug": "white-formal-shirt",
+      "sku": "MEN-SH-003",
+      "categoryId": 1,
+      "description": "Crisp formal shirt ideal for office and meetings. Easy care fabric.",
+      "price": 999,
+      "discountPrice": 799,
+      "stock": 28,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b85?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Cotton Blend",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "5.0",
+      "reviewCount": 152,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 4,
+      "name": "Grey Hooded Sweatshirt",
+      "slug": "grey-hooded-sweatshirt",
+      "sku": "MEN-HD-004",
+      "categoryId": 1,
+      "description": "Warm and soft hoodie with front pocket. Perfect for winters and casual outings.",
+      "price": 1299,
+      "discountPrice": 999,
+      "stock": 40,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Fleece",
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.4",
+      "reviewCount": 83,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 5,
+      "name": "Black Casual Sneakers",
+      "slug": "black-casual-sneakers",
+      "sku": "MEN-SN-005",
+      "categoryId": 1,
+      "description": "Lightweight casual sneakers with cushioned sole for all-day comfort.",
+      "price": 1999,
+      "discountPrice": 1599,
+      "stock": 22,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Synthetic",
+      "sizes": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.3",
+      "reviewCount": 139,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 6,
+      "name": "Olive Cargo Pants",
+      "slug": "olive-cargo-pants",
+      "sku": "MEN-CP-006",
+      "categoryId": 1,
+      "description": "Utility cargo pants with multiple pockets. Rugged and stylish.",
+      "price": 1199,
+      "discountPrice": 899,
+      "stock": 18,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Cotton",
+      "sizes": [
+        "30",
+        "32",
+        "34"
+      ],
+      "colors": [
+        "Olive"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.8",
+      "reviewCount": 188,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 7,
+      "name": "Navy Polo T-Shirt",
+      "slug": "navy-polo-t-shirt",
+      "sku": "MEN-PL-007",
+      "categoryId": 1,
+      "description": "Classic polo with breathable fabric. Great for casual Fridays.",
+      "price": 699,
+      "discountPrice": 549,
+      "stock": 50,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Cotton Pique",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Navy"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.8",
+      "reviewCount": 156,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 8,
+      "name": "Brown Leather Belt",
+      "slug": "brown-leather-belt",
+      "sku": "MEN-BL-008",
+      "categoryId": 1,
+      "description": "Genuine leather belt with classic buckle. Durable and elegant.",
+      "price": 499,
+      "discountPrice": 399,
+      "stock": 60,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1624222247344-550fb60583fd?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "men",
+      "material": "Genuine Leather",
+      "sizes": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Brown"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.1",
+      "reviewCount": 82,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 9,
+      "name": "Floral Summer Dress",
+      "slug": "floral-summer-dress",
+      "sku": "WOM-DR-001",
+      "categoryId": 2,
+      "description": "Light and breezy floral dress perfect for summer outings and brunches.",
+      "price": 1299,
+      "discountPrice": 999,
+      "stock": 35,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Rayon",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Floral Print"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.9",
+      "reviewCount": 14,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 10,
+      "name": "High Waist Skinny Jeans",
+      "slug": "high-waist-skinny-jeans",
+      "sku": "WOM-JN-002",
+      "categoryId": 2,
+      "description": "Flattering high-waist skinny jeans with stretch for all-day comfort.",
+      "price": 1399,
+      "discountPrice": 1099,
+      "stock": 27,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Stretch Denim",
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "colors": [
+        "Dark Blue"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.9",
+      "reviewCount": 201,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 11,
+      "name": "Pink Crop Top",
+      "slug": "pink-crop-top",
+      "sku": "WOM-CT-003",
+      "categoryId": 2,
+      "description": "Trendy crop top for casual and party wear. Soft and stretchy.",
+      "price": 499,
+      "discountPrice": 399,
+      "stock": 42,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Cotton",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.9",
+      "reviewCount": 13,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 12,
+      "name": "Black Maxi Skirt",
+      "slug": "black-maxi-skirt",
+      "sku": "WOM-SK-004",
+      "categoryId": 2,
+      "description": "Elegant flowing maxi skirt suitable for office and evening events.",
+      "price": 899,
+      "discountPrice": 699,
+      "stock": 25,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Georgette",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.4",
+      "reviewCount": 142,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 13,
+      "name": "White Sneakers for Women",
+      "slug": "white-sneakers-for-women",
+      "sku": "WOM-SN-005",
+      "categoryId": 2,
+      "description": "Clean white sneakers that go with everything. Comfortable everyday footwear.",
+      "price": 1799,
+      "discountPrice": 1499,
+      "stock": 30,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Canvas",
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "colors": [
+        "White"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.9",
+      "reviewCount": 137,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 14,
+      "name": "Red Kurti",
+      "slug": "red-kurti",
+      "sku": "WOM-KU-006",
+      "categoryId": 2,
+      "description": "Traditional yet modern kurti with elegant embroidery. Perfect for festive occasions.",
+      "price": 799,
+      "discountPrice": 599,
+      "stock": 38,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Cotton",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.1",
+      "reviewCount": 54,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 15,
+      "name": "Beige Cardigan",
+      "slug": "beige-cardigan",
+      "sku": "WOM-CD-007",
+      "categoryId": 2,
+      "description": "Soft cardigan for layering. Warm and stylish for cooler weather.",
+      "price": 1099,
+      "discountPrice": 849,
+      "stock": 20,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Wool Blend",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Beige"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "5.0",
+      "reviewCount": 160,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 16,
+      "name": "Silver Hoop Earrings",
+      "slug": "silver-hoop-earrings",
+      "sku": "WOM-ER-008",
+      "categoryId": 2,
+      "description": "Classic silver hoop earrings. Lightweight and elegant.",
+      "price": 399,
+      "discountPrice": 299,
+      "stock": 80,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "women",
+      "material": "Alloy",
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Silver"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.6",
+      "reviewCount": 103,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 17,
+      "name": "Kids Cartoon T-Shirt",
+      "slug": "kids-cartoon-t-shirt",
+      "sku": "KID-TS-001",
+      "categoryId": 3,
+      "description": "Fun cartoon printed t-shirt for kids. Soft and durable for daily play.",
+      "price": 399,
+      "discountPrice": 299,
+      "stock": 55,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1503919545889-aef636e10ad2?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "unisex",
+      "material": "Cotton",
+      "sizes": [
+        "2-3Y",
+        "4-5Y",
+        "6-7Y"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.3",
+      "reviewCount": 198,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 18,
+      "name": "Boys Denim Shorts",
+      "slug": "boys-denim-shorts",
+      "sku": "KID-SH-002",
+      "categoryId": 3,
+      "description": "Comfortable denim shorts for active boys. Easy to wash.",
+      "price": 599,
+      "discountPrice": 449,
+      "stock": 33,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "boys",
+      "material": "Denim",
+      "sizes": [
+        "4-5Y",
+        "6-7Y",
+        "8-9Y"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.5",
+      "reviewCount": 28,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 19,
+      "name": "Girls Frock Dress",
+      "slug": "girls-frock-dress",
+      "sku": "KID-DR-003",
+      "categoryId": 3,
+      "description": "Pretty frock with soft fabric. Ideal for parties and family gatherings.",
+      "price": 699,
+      "discountPrice": 549,
+      "stock": 28,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "girls",
+      "material": "Cotton",
+      "sizes": [
+        "2-3Y",
+        "4-5Y",
+        "6-7Y"
+      ],
+      "colors": [
+        "Pink"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.3",
+      "reviewCount": 79,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 20,
+      "name": "Kids School Shoes",
+      "slug": "kids-school-shoes",
+      "sku": "KID-SH-004",
+      "categoryId": 3,
+      "description": "Durable school shoes with good grip and comfort for long hours.",
+      "price": 899,
+      "discountPrice": 699,
+      "stock": 40,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1514989940723-40d130a25d6e?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "unisex",
+      "material": "Synthetic",
+      "sizes": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.9",
+      "reviewCount": 170,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 21,
+      "name": "Kids Winter Jacket",
+      "slug": "kids-winter-jacket",
+      "sku": "KID-JK-005",
+      "categoryId": 3,
+      "description": "Warm padded jacket for cold weather. Water resistant outer layer.",
+      "price": 1299,
+      "discountPrice": 999,
+      "stock": 15,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1503919545889-aef636e10ad2?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "unisex",
+      "material": "Polyester",
+      "sizes": [
+        "4-5Y",
+        "6-7Y",
+        "8-9Y"
+      ],
+      "colors": [
+        "Navy"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "5.0",
+      "reviewCount": 202,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 22,
+      "name": "Boys Track Pants",
+      "slug": "boys-track-pants",
+      "sku": "KID-TP-006",
+      "categoryId": 3,
+      "description": "Stretchy track pants for sports and casual wear.",
+      "price": 499,
+      "discountPrice": 399,
+      "stock": 45,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1503919545889-aef636e10ad2?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": "boys",
+      "material": "Cotton Blend",
+      "sizes": [
+        "4-5Y",
+        "6-7Y",
+        "8-9Y"
+      ],
+      "colors": [
+        "Grey"
+      ],
+      "brand": null,
+      "weight": null,
+      "expiryDate": null,
+      "rating": "4.4",
+      "reviewCount": 68,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 23,
+      "name": "Basmati Rice 5kg",
+      "slug": "basmati-rice-5kg",
+      "sku": "GRC-RC-001",
+      "categoryId": 4,
+      "description": "Premium long grain basmati rice. Aromatic and perfect for biryani and daily meals.",
+      "price": 450,
+      "discountPrice": 399,
+      "stock": 120,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "India Gate",
+      "weight": "5kg",
+      "expiryDate": "2027-09-01",
+      "rating": "4.2",
+      "reviewCount": 97,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 24,
+      "name": "Tata Salt 1kg",
+      "slug": "tata-salt-1kg",
+      "sku": "GRC-SL-002",
+      "categoryId": 4,
+      "description": "Iodized salt for everyday cooking. Trusted quality.",
+      "price": 30,
+      "discountPrice": 28,
+      "stock": 200,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Tata",
+      "weight": "1kg",
+      "expiryDate": "2028-08-31",
+      "rating": "4.5",
+      "reviewCount": 165,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 25,
+      "name": "Fortune Sunflower Oil 1L",
+      "slug": "fortune-sunflower-oil-1l",
+      "sku": "GRC-OL-003",
+      "categoryId": 4,
+      "description": "Light and healthy sunflower oil. Ideal for frying and cooking.",
+      "price": 160,
+      "discountPrice": 145,
+      "stock": 85,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Fortune",
+      "weight": "1L",
+      "expiryDate": "2027-09-01",
+      "rating": "4.7",
+      "reviewCount": 139,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 26,
+      "name": "Amul Butter 500g",
+      "slug": "amul-butter-500g",
+      "sku": "GRC-BT-004",
+      "categoryId": 4,
+      "description": "Fresh Amul butter. Perfect for toast, cooking and baking.",
+      "price": 275,
+      "discountPrice": 265,
+      "stock": 60,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1589985270826-4b7bb1337a52?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Amul",
+      "weight": "500g",
+      "expiryDate": "2026-11-30",
+      "rating": "4.2",
+      "reviewCount": 177,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 27,
+      "name": "Maggi Noodles Pack of 12",
+      "slug": "maggi-noodles-pack-of-12",
+      "sku": "GRC-MG-005",
+      "categoryId": 4,
+      "description": "Instant noodles ready in 2 minutes. Family pack.",
+      "price": 144,
+      "discountPrice": 132,
+      "stock": 150,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1612929632978-63d95b65d5d5?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Maggi",
+      "weight": "12 x 70g",
+      "expiryDate": "2027-05-29",
+      "rating": "4.1",
+      "reviewCount": 11,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 28,
+      "name": "Britannia Marie Gold Biscuits 1kg",
+      "slug": "britannia-marie-gold-biscuits-1kg",
+      "sku": "GRC-BS-006",
+      "categoryId": 4,
+      "description": "Light and crispy Marie biscuits. Great with tea.",
+      "price": 120,
+      "discountPrice": 110,
+      "stock": 90,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Britannia",
+      "weight": "1kg",
+      "expiryDate": "2027-02-28",
+      "rating": "4.1",
+      "reviewCount": 121,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 29,
+      "name": "Toor Dal 1kg",
+      "slug": "toor-dal-1kg",
+      "sku": "GRC-DL-007",
+      "categoryId": 4,
+      "description": "High quality toor dal (arhar). Protein rich and nutritious.",
+      "price": 160,
+      "discountPrice": 145,
+      "stock": 110,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Organic",
+      "weight": "1kg",
+      "expiryDate": "2027-09-01",
+      "rating": "4.4",
+      "reviewCount": 134,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    },
+    {
+      "id": 30,
+      "name": "Nestle Everyday Dairy Whitener 400g",
+      "slug": "nestle-everyday-dairy-whitener-400g",
+      "sku": "GRC-DW-008",
+      "categoryId": 4,
+      "description": "Dairy whitener for rich tea and coffee.",
+      "price": 210,
+      "discountPrice": 195,
+      "stock": 70,
+      "reservedStock": 0,
+      "lowStockThreshold": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600&h=600&fit=crop"
+      ],
+      "status": "active",
+      "gender": null,
+      "material": null,
+      "sizes": [],
+      "colors": [],
+      "brand": "Nestle",
+      "weight": "400g",
+      "expiryDate": "2027-09-01",
+      "rating": "4.2",
+      "reviewCount": 178,
+      "createdAt": "2026-09-01T19:48:29.417Z",
+      "updatedAt": "2026-09-01T19:48:29.417Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men",
+      "slug": "men",
+      "description": "Men's Fashion"
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "slug": "women",
+      "description": "Women's Fashion"
+    },
+    {
+      "id": 3,
+      "name": "Kids",
+      "slug": "kids",
+      "description": "Kids Fashion"
+    },
+    {
+      "id": 4,
+      "name": "Groceries",
+      "slug": "groceries",
+      "description": "Daily Groceries"
+    }
+  ],
+  "carts": {},
+  "wishlists": {},
+  "orders": [],
+  "stockMovements": [],
+  "nextIds": {
+    "user": 3,
+    "product": 31,
+    "order": 1001,
+    "movement": 1
+  }
+}
