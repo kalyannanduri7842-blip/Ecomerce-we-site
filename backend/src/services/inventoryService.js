@@ -1131,3 +1131,4 @@ function inventoryServiceOp25(ctx, payload) {
 }
 
 module.exports = { inventoryServiceOp1, inventoryServiceOp2, inventoryServiceOp3, inventoryServiceOp4, inventoryServiceOp5, inventoryServiceOp6, inventoryServiceOp7, inventoryServiceOp8, inventoryServiceOp9, inventoryServiceOp10, inventoryServiceOp11, inventoryServiceOp12, inventoryServiceOp13, inventoryServiceOp14, inventoryServiceOp15, inventoryServiceOp16, inventoryServiceOp17, inventoryServiceOp18, inventoryServiceOp19, inventoryServiceOp20, inventoryServiceOp21, inventoryServiceOp22, inventoryServiceOp23, inventoryServiceOp24, inventoryServiceOp25 };
+// stock movement audit trail
