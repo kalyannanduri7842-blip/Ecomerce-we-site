@@ -1,0 +1,10 @@
+{
+  "name": "nexmart-frontend",
+  "version": "1.0.0",
+  "description": "NexMart Customer & Admin Storefront",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "serve": "python3 -m http.server 3000"
+  },
+  "dependencies": {}
+}
